@@ -48,11 +48,11 @@
   }
   
   .flat:hover {
-    background-color: #0c960c;
+    background-color: #abc7f5;
     transition: background-color .15s, font-size .15s;
     font-size: 18px;
   }
   
   .flat:active {
-    border-color: #fff;
+    border-color: #0f2447;
   }
