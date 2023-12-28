@@ -1,0 +1,79 @@
+@charset "UTC-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  color: seashell;
+}
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+  margin: 10px;
+}
+.menu {
+  color: seashell;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 5;
+  margin: 0px 20px;
+}
+.middle {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+h2 {
+}
+h4 {
+  margin: 5px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.mimg {
+  height: 200px;
+  weight: 300px;
+  margin: 10px;
+}
+.board {
+}
+.locations {
+  display: flex;
+  background-image: url(img-locations-background.jpg);
+  height: 500px;
+  flex-wrap: wrap;
+}
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+.end {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.email {
+  margin-bottom: 18px;
+}
+.phone {
+  font-size: smaller;
+}
